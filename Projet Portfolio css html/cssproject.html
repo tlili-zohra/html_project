@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="cssproject.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio : Css Project</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <b
+        ><a href="#home">Home</a> <a href="#about">About</a>
+        <a href="#work">Work</a> <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a></b
+      >
+    </div>
+    <header>
+      <h1 id="about">About Me</h1>
+      <h1>Tlili Zohra</h1>
+      <p>Web Developer | Designer | Innovator</p>
+    </header>
+
+    <section class="about">
+      <!--<h2 id="ident">About</h2>-->
+      <img
+        src="PhotoProfile.png"
+        alt="Profile Picture"
+        width="300px"
+        height="300px"
+      />
+      <p>
+        Hello! I'm Tlili Zohra, I am studying Computer Science and majoring in
+        Software Development and Java Development with expertise in Artificial
+        Intelligence. I enjoy building effective solutions and love solving
+        problems and bringing ideas to life through code.
+      </p>
+    </section>
+    <br />
+    <h1 id="work">My work</h1>
+    <section class="Multimedia">
+      <h2>Multimedia</h2>
+      <video controls width="50%">
+        <source src="video.mp4" type="video/mp4" />
+        Java application
+      </video>
+      <!--<audio controls width="50%">
+        <source src="audio.mp4" type="video/mp4" />
+        Android QR scan
+      </video>-->
+      <br />
+      <br />
+      <audio controls>
+        <source src="audio.mp4" type="audio/ogg" />
+        Work Audio
+      </audio>
+    </section>
+
+    <section class="projects">
+      <h2 id="projettitle">Projects</h2>
+      <ul>
+        <li><a href="#">Android Project</a></li>
+        <li><a href="#">Java project</a></li>
+        <li><a href="#">Stop_corona project</a></li>
+      </ul>
+    </section>
+    <section class="resume">
+      <h2 id="worktitle">Resume</h2>
+      <p id="resume">
+        Zohra Tlili is a computer science engineer with a Master's degree in
+        Intelligent Systems and IoT from FST (2024) and a Bachelor’s degree in
+        Computer Science (2021). She has expertise in programming (Python, C++,
+        Java), web development, databases , and AI technologies like machine
+        learning, deep learning, and federated learning. Zohra has worked on
+        innovative projects, including an Android application for ZAI
+        Informatique and a blockchain-based fraud detection system for LIPAH.
+        Known for her creativity, organization, and teamwork, she is also an
+        active member of JCI Zaghouan El Médina, aiming to leverage her skills
+        to contribute to impactful and intelligent solutions.
+      </p>
+      <label> phone number :</label>
+      <i>23758906</i>
+      <br />
+      <label> Email :</label>
+      <i>tlili.zohra12@gmail.com</i>
+    </section>
+
+    <section class="contact">
+      <h2 id="contact">Contact</h2>
+      <form action="#" method="post">
+        <label for="name">Name </label><br />
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email">Email </label><br />
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="message">Message </label><br />
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Tlili Zohra. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
